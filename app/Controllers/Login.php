@@ -16,6 +16,10 @@ class Login extends BaseController
 
         $datosUsuario = $Usuario->obtenerUsuario(['username' => $usuario]);
 
+        return print_r($datosUsuario);
+        //return die($datosUsuario);
+        
+
         if (count($datosUsuario) > 0 &&
         password_verify($password, $datosUsuario[0]['password'])) {
 
@@ -27,10 +31,12 @@ class Login extends BaseController
         $session = session();
         $session->set($data);
 
-        return redirect()->to(base_url('/inicio'))->with('mensaje','1');
+
+
+        return view('index/index');
 
         } else {
-        return redirect()->to(base_url('/'))->with('mensaje','0');
+        return view('index/categorias');
         }
     }
 }
