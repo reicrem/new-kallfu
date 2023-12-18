@@ -1,0 +1,11 @@
+CRITICAL - 2023-12-18 13:24:52 --> Undefined variable $ofertas
+in APPPATH\Views\auth\index.php on line 94.
+ 1 APPPATH\Views\auth\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ofertas', 'C:\\wamp64\\www\\new-kallfu\\app\\Views\\auth\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\new-kallfu\\app\\Views\\auth\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('auth/index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('auth/index')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
