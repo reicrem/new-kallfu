@@ -19,7 +19,11 @@
     </div>
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg"></p>
+        <p class="login-box-msg">
+          <?php if(isset($mensaje)): ?>
+          <?= $mensaje; ?>
+          <?php endif ?>
+        </p>
         <form action="<?php echo base_url();?>auth/login" method="post">
           <div class="input-group mb-3">
 
