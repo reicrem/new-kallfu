@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-
 use App\Controllers\BaseController;
 use App\Models\Usuarios;
 use App\Libraries\Hash;
@@ -10,65 +9,36 @@ use App\Libraries\Hash;
 class Login extends BaseController
 {
     
-    public function login()
-    {
+    public function login() {
         $usuario = $this->request->getPost('usuario');
         $password = $this->request->getPost('password');
-
-        /*
-        // encriptar la contraseña
-        $encrypter = \Config\Services::encrypter();
-        $clave = bin2hex($encrypter->encrypt($password));
-
-        $encrypter = \Config\Services::encrypter();
-        $clave2 = $encrypter->decrypt(hex2bin($clave));
-        return die($clave." -- ".$clave2 );
-        */
-       
         $Usuario = new Usuarios();
-       $datosUsuario = $Usuario->obtenerUsuario(['username' => $usuario]);
+        $datosUsuario = $Usuario->obtenerUsuario(['username' => $usuario]);
 
-       
-
-       
-       if ($datosUsuario) {
-        
-            $contra_enc = $datosUsuario[0]['password'];
-            $npass = Hash::check($password, $contra_enc);
-
+        if ($datosUsuario) {
+            $npass = Hash::check($password, $datosUsuario[0]['password']);
             if ($npass){
                 $data = [
-                "usuario" => $datosUsuario[0]['nombres'],
-                "type" => $datosUsuario[0]['rol_id']
+                    "usuario" => $datosUsuario[0]['nombres'],
+                    "type" => $datosUsuario[0]['rol_id']
                 ];
-
                 $session = session();
                 $session->set($data);
-
                 return view('index/index');
             } else {
                 return view('auth/index', ['mensaje' => 'Contraseña incorrecta, favor verifique las credenciales']);
-          }
-           
+            }
         } else {
-        
-        return view('auth/index', ['mensaje' => 'Usuario incorrecto, favor verifique las credenciales']);
+            return view('auth/index', ['mensaje' => 'Usuario incorrecto, favor verifique las credenciales']);
         }
-
     }
 
-    public function register()
-    {
+    public function register() {
         $usuario = $this->request->getPost('usuario');
         $password = $this->request->getPost('password');
         $nombre = $this->request->getPost('nombre');
         $apellidos = $this->request->getPost('apellidos');
        
-        /*
-        $encrypter = \Config\Services::encrypter();
-        $clave = base64_encode($encrypter->encrypt($password));
-        */
-
         $clave = Hash::make($password);
         
         $data = [
@@ -86,14 +56,9 @@ class Login extends BaseController
         } else {
             return view('auth/register', ['mensaje' => 'Hubo un error, vuelva a intertar por favor']);
         }
-
-               
     }
 
-    public function registro(): string
-    {
+    public function registro(): string {
         return view('auth/register');
     }
-
-
 }
