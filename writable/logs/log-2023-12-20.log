@@ -1,0 +1,268 @@
+CRITICAL - 2023-12-20 01:20:05 --> Call to undefined method App\Controllers\Login::encrypt()
+in APPPATH\Controllers\Login.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:21:47 --> Call to undefined method App\Controllers\Login::encrypt()
+in APPPATH\Controllers\Login.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:22:10 --> Call to undefined method App\Controllers\Login::encrypt()
+in APPPATH\Controllers\Login.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:22:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertId()
+in APPPATH\Models\Usuarios.php on line 52.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:27:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:28:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::InsertID()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:29:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::InsertId()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:31:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::InsertId()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:31:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::InsertID()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:32:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Insertid()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:33:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertid()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-20 01:33:34 --> mysqli_sql_exception: Duplicate entry 'user10' for key 'usuarios.username_UNIQUE' in C:\wamp64\www\new-kallfu\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\new-kallfu\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\wamp64\www\new-kallfu\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\new-kallfu\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\new-kallfu\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\new-kallfu\app\Models\Usuarios.php(51): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\new-kallfu\app\Controllers\Login.php(77): App\Models\Usuarios->register(Array)
+#6 C:\wamp64\www\new-kallfu\system\CodeIgniter.php(942): App\Controllers\Login->register()
+#7 C:\wamp64\www\new-kallfu\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\wamp64\www\new-kallfu\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\new-kallfu\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-20 01:33:34 --> Duplicate entry 'user10' for key 'usuarios.username_UNIQUE'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`username`, `nombres`, `apellidos`, `password`) VALUES (:username:, :nombres:, :apellidos:, :password:)', [...], false)
+ 2 APPPATH\Models\Usuarios.php(51): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:33:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertId()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:34:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertId()
+in APPPATH\Models\Usuarios.php on line 53.
+ 1 APPPATH\Controllers\Login.php(77): App\Models\Usuarios->register([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:39:51 --> hex2bin(): Input string must be hexadecimal string
+in APPPATH\Controllers\Login.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hex2bin(): Input string must be hexadecimal string', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 34)
+ 2 APPPATH\Controllers\Login.php(34): hex2bin('jamqIiKPOP4+UfOrLEQYV7tuUnfa3g9VbX4OuuQ98o6Oli11WiLx4PPh6GYErF4TQKkXEqQcu8YejZxILerc12AtIXgJ7SWf3ZGc')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:41:22 --> Undefined constant "App\Controllers\contra_enc"
+in APPPATH\Controllers\Login.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:41:37 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('QKkXEqQcu8YejZxILerc12AtIXgJ7SWf3ZGc')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:42:53 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('V2lMeDRQUGg2R1lFckY0VFFLa1hFcVFjdThZZWpaeElMZXJjMTJBdElYZ0o3U1dmM1pHYw==')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:49:20 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Login.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:49:33 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(37): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('`-!x	í%Ÿİ‘œ')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:56:22 --> Undefined variable $encrypter
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $encrypter', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 01:56:40 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(35): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('QKkXEqQcu8YejZxILerc12AtIXgJ7SWf3ZGc')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:04:05 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(37): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('`-!x	í%Ÿİ‘œ')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:04:28 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(37): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('`-!x	í%Ÿİ‘œ')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:14:38 --> Undefined property: App\Controllers\Login::$bcrypt
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$bcrypt', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:16:41 --> Undefined property: App\Controllers\Login::$bcrypt
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$bcrypt', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:17:03 --> Undefined property: App\Controllers\Login::$Bcrypt
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$Bcrypt', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:31:59 --> Undefined property: App\Controllers\Login::$Bcrypt
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$Bcrypt', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:32:21 --> Undefined property: App\Controllers\Login::$bcrypt
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$bcrypt', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:34:12 --> Undefined property: App\Controllers\Login::$bcrypt
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$bcrypt', 'C:\\wamp64\\www\\new-kallfu\\app\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:41:13 --> Class "App\Libraries\Bcrypt" not found
+in APPPATH\Controllers\Login.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:43:12 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(37): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('`-!x	í%Ÿİ‘œ')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:45:07 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(37): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('`-!x	í%Ÿİ‘œ')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:45:34 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(37): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('`-!x	í%Ÿİ‘œ')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 02:47:22 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Login.php(32): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('`-!x	í%Ÿİ‘œ')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

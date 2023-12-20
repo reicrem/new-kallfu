@@ -41,8 +41,16 @@ class Usuarios extends Model
     protected $afterDelete = [];
 
     public function obtenerUsuario($data) {
-    $Usuario = $this->db->table('usuarios');
-    $Usuario->where($data);
-    return $Usuario->get()->getResultArray();
+        $Usuario = $this->db->table('usuarios');
+        $Usuario->where($data);
+        return $Usuario->get()->getResultArray();
     }
+
+    public function register($data) {
+        $Usuario = $this->db->table('usuarios');
+        $Usuario->insert($data);
+        return true;
+    }
+
+
 }
