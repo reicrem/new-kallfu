@@ -5,6 +5,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\Usuarios;
+use App\Libraries\Hash;
 
 class Login extends BaseController
 {
@@ -27,16 +28,15 @@ class Login extends BaseController
         $Usuario = new Usuarios();
        $datosUsuario = $Usuario->obtenerUsuario(['username' => $usuario]);
 
-       $contra_enc = $datosUsuario[0]['password'];
-       $encrypter = \Config\Services::encrypter();
-       $clave2 = $encrypter->decrypt(base64_decode($contra_enc));
-       return print_r($clave2);
+       
 
+       
        if ($datosUsuario) {
         
-            
+            $contra_enc = $datosUsuario[0]['password'];
+            $npass = Hash::check($password, $contra_enc);
 
-            if ($clave2 == $password){
+            if ($npass){
                 $data = [
                 "usuario" => $datosUsuario[0]['nombres'],
                 "type" => $datosUsuario[0]['rol_id']
@@ -64,8 +64,12 @@ class Login extends BaseController
         $nombre = $this->request->getPost('nombre');
         $apellidos = $this->request->getPost('apellidos');
        
+        /*
         $encrypter = \Config\Services::encrypter();
         $clave = base64_encode($encrypter->encrypt($password));
+        */
+
+        $clave = Hash::make($password);
         
         $data = [
             "username" => $usuario,
